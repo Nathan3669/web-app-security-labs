@@ -1,19 +1,19 @@
-## SQL Injection Vulnerability
+ SQL Injection Vulnerability
 
-### Description
+ Description
 SQL Injection occurs when user input is directly concatenated into SQL queries without proper validation.
 
-### Risk
+ Risk
 An attacker can manipulate queries to:
 - Bypass authentication
 - Access unauthorized data
 - Modify or delete database records
 
-### Vulnerable Behavior
+ Vulnerable Behavior
 User input is directly inserted into the SQL query.
 
-### Secure Fix
+ Secure Fix
 Prepared statements are used to separate SQL logic from user input, preventing malicious query manipulation.
 
-### Lesson Learned
+ Lesson Learned
 Never trust user input. Always validate and use parameterized queries.
